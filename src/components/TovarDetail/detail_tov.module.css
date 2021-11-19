@@ -1,0 +1,113 @@
+.blogDetail{
+    width: 100%;
+    /* border: 0.1rem solid silver; */
+    box-sizing: border-box;
+    padding: 1rem;
+    color: #001f32;
+    margin-top: 5rem;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    align-self: center;
+    border: 0.1rem solid rgb(202, 202, 202);
+    border-radius: 1rem;
+    width: 70%;
+}
+.tov__name{
+    color: #001f32;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight:bold;
+    letter-spacing: 0.3rem;
+    word-spacing: 0.6rem;
+}
+.ocenka{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
+.ocenka__container{
+    border-radius: 0.5rem;
+    border: 0.1rem solid silver;
+    height: 5rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.zvezda, .red_zvezda{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+    display: flex;
+}
+.zvezda::after, .red_zvezda::after{
+    content: '\2606';
+    color:red;
+    font-size: 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.big_star{
+    width: 3rem;
+    height: 3rem;
+}
+.big_star::after{
+    font-size: 3rem;
+}
+.red_zvezda::after{
+    content: '\2605';
+}
+.col__ocen{
+    align-self: flex-end;
+    font-size: 1rem;
+    color: #b5b5b5;
+}
+.h2Desc{
+    margin-top: 1rem;
+}
+.tov__desc{
+    font-size: 1rem;
+    margin-top: 1rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.5rem;
+}
+.btn__ocenitt{
+    width: 50%;
+    padding: 0.5rem;
+    color: white;
+    background-color: #001f32;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    cursor: pointer;
+    align-self: flex-end;
+}
+.btn__ocenitt:hover{
+    transition: 1s;
+    background-color: #023a5e;
+    font-weight: bold;
+}
+.div__cena{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #023a5e;
+}
+.dangerText{
+    font-size:1.3rem;
+    margin-top:1rem;
+    color:tomato;
+}
+.danger__text{
+    color:tomato;
+    font-style:italic;
+}

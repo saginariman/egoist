@@ -1,0 +1,24 @@
+.footer{
+    width: 100vw;
+    height: 5rem;
+    background-color: #001f32;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.socials{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    width: auto;
+    height: 2rem;
+    cursor: pointer;
+    margin-right: 1.5rem;
+}

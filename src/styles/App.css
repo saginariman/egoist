@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-bottom: 5rem;
+  position: relative;
+  min-height:100vh;
+}
+.App{
+  /* border:1px solid red; */
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  scrollbar-width: 0.5rem;
+  scrollbar-color: white white;
+}
+body::-webkit-scrollbar {
+  width: 0.3rem;
+}
+body::-webkit-scrollbar-track {
+  /* background: #5c549d; */
+  border-radius: calc(12px / 2);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #001f32;
+  border-radius: 0.1rem;
+}

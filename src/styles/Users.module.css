@@ -1,0 +1,48 @@
+.wrapper{
+    margin-top: 5rem;
+    width: 100vw;
+    height: auto;
+    padding: 1rem;
+    /* border: 0.1rem solid red; */
+    box-sizing: border-box;
+}
+.blog{
+    border: 0.1rem solid silver;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.login{
+    color: #001f32;
+    font-size: 1.3rem;
+}
+.btn__group{
+    display: flex;
+
+}
+.btn, .btn__ban{
+    background-color: #001f32;
+    color: white;
+    padding: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    align-self: flex-end;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.btn{
+    background-color: tomato;
+}
+.btn:hover{
+    transition: 0.6s;
+    background-color: #001f32;
+}
+.btn__ban:hover{
+    transition: 0.6s;
+    background-color: tomato;
+}

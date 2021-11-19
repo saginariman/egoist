@@ -1,0 +1,125 @@
+.edit_main{
+    margin-top: 5rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 1rem;
+}
+.btn_edit_main{
+    background-color: #001f32;
+    color: white;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+.btn_edit_main:hover{
+    transition: 0.6s;
+    background-color: #024066;
+}
+.modalAdmin{
+    display: none;
+}
+.modalAdminActive{
+    display: blog;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 13;
+}
+.containerModal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: red; */
+    z-index: 13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalBefore{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 12;
+}
+.contentModal{
+    padding: 1rem;
+    background-color: white;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    position: relative;
+    color: #001f32;
+}
+.contentModal form{
+    display: flex;
+    flex-direction: column;
+}
+.contentModal p{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #001f32;
+    margin-top: 1rem;
+}
+.contentModal input{
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border:0.1rem solid silver;
+    width: 100%;
+    outline: none;
+}
+.contentModal button{
+    background-color: #001f32;
+    padding: 0.5rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    align-self: flex-end;
+}
+.modalClose{
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: tomato;
+    cursor: pointer;
+}
+.pError, .pMess{
+    text-align: center;
+    width: 100%;
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+}
+.pError{
+    color: tomato;
+}
+.pMess{
+    color: teal;
+}
+
+@media (max-width: 767px) {
+    .contentModal{
+        width: 80vw;
+    }
+}
